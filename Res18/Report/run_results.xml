@@ -1,0 +1,362 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "https://selenium08.blogspot.com/2019/07/check-box-and-radio-buttons.html",1</Name>
+    <StartTime>2023-03-27 16:03:34</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>f6e2455d50264b7daf4dec9fb3da895c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\64b39551-23c4-4589-8d4a-8b92c95fa50d.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>redclick.Set</Name>
+    <Description>"ON"</Description>
+    <StartTime>2023-03-27 16:03:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Check box and Radio buttons]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Check box and Radio buttons]]></Name>
+          </Object>
+          <Object>
+            <Type>WebCheckBox</Type>
+            <Name><![CDATA[redclick]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["ON"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[3]/DIV[1]/DIV[1]/INPUT[1]]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>52d703b85948404da36294e6206ab3da</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\74aea019-3969-454f-aab9-c254386bc1f9.jpeg" highlight="299,773,13,13" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>GreenClick.Set</Name>
+    <Description>"ON"</Description>
+    <StartTime>2023-03-27 16:03:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Check box and Radio buttons]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Check box and Radio buttons]]></Name>
+          </Object>
+          <Object>
+            <Type>WebCheckBox</Type>
+            <Name><![CDATA[GreenClick]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["ON"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[3]/DIV[1]/DIV[1]/INPUT[5]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[checked]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>52d703b85948404da36294e6206ab3da</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\4f59f120-434b-42b7-b39a-f4f9e6f7d1b8.jpeg" highlight="299,933,13,13" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"redclick"</Name>
+    <Description>Property &amp;quot;checked&amp;quot; has the actual value: 1. The expected value was &amp;quot;0&amp;quot;.</Description>
+    <StartTime>2023-03-27 16:03:59</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Check box and Radio buttons]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Check box and Radio buttons]]></Name>
+          </Object>
+          <Object>
+            <Type>WebCheckBox</Type>
+            <Name><![CDATA[redclick]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Property &quot;checked&quot; has the actual value: 1. The expected value was &quot;0&quot;.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[3]/DIV[1]/DIV[1]/INPUT[1]]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>52d703b85948404da36294e6206ab3da</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>CheckProperty</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\141b976d-0858-4c8a-84ab-5077ec727604.jpeg" highlight="299,773,13,13" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>redclick</Name>
+    <Description>WebCheckBox</Description>
+    <StartTime>2023-03-27 16:03:59</StartTime>
+    <Duration>1</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Check box and Radio buttons]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Check box and Radio buttons]]></Name>
+          </Object>
+          <Object>
+            <Type>WebCheckBox</Type>
+            <Name><![CDATA[redclick]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebCheckBox]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[3]/DIV[1]/DIV[1]/INPUT[1]]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>52d703b85948404da36294e6206ab3da</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"OrangeControl"</Name>
+    <Description>Property &amp;quot;checked&amp;quot; has the expected value: &amp;quot;0&amp;quot;.</Description>
+    <StartTime>2023-03-27 16:04:00</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Check box and Radio buttons]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Check box and Radio buttons]]></Name>
+          </Object>
+          <Object>
+            <Type>WebCheckBox</Type>
+            <Name><![CDATA[OrangeControl]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Property &quot;checked&quot; has the expected value: &quot;0&quot;.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[3]/DIV[1]/DIV[1]/INPUT[4]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[checked]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>52d703b85948404da36294e6206ab3da</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>CheckProperty</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\3aea7bcd-9cdc-434b-9e75-a5e0a643c6d1.jpeg" highlight="299,893,13,13" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>OrangeControl</Name>
+    <Description>WebCheckBox</Description>
+    <StartTime>2023-03-27 16:04:00</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Check box and Radio buttons]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Check box and Radio buttons]]></Name>
+          </Object>
+          <Object>
+            <Type>WebCheckBox</Type>
+            <Name><![CDATA[OrangeControl]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebCheckBox]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[3]/DIV[1]/DIV[1]/INPUT[4]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[checked]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>52d703b85948404da36294e6206ab3da</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Check box and Radio buttons</Name>
+    <Description>Page</Description>
+    <StartTime>2023-03-27 16:03:36</StartTime>
+    <Duration>24</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Check box and Radio buttons]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Check box and Radio buttons]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>34a8bd5ba31e4873bc1db7f9382b3045</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Check box and Radio buttons</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2023-03-27 16:03:36</StartTime>
+    <Duration>24</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Check box and Radio buttons]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>787bf00511fe470ba516705e5dffded3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HW3</Name>
+    <Description />
+    <StartTime>2023-03-27 16:03:32</StartTime>
+    <Duration>28</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>e7d739368b014768b4ccb24a188480f1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Deneme</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2022</ToolVersion>
+    <ToolVersionStringLiteral>2022</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2023-03-27 16:03:30</StartTime>
+    <Duration>30</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>6432f16b37da419d88f08145797fdab5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+03:00:00</Timezone>
+      <Locale>Türkçe (Türkiye)</Locale>
+      <User>Hp</User>
+      <CpuInfo>AMD Ryzen 7 5700U with Radeon Graphics         </CpuInfo>
+      <NumberOfCores>16</NumberOfCores>
+      <TotalMemory>15680</TotalMemory>
+      <HostName>DESKTOP-JU0VIB2</HostName>
+      <OSInfo>Windows 10 22H2 (x64)</OSInfo>
+    </Environment>
+    <Video>MSR.fbr</Video>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res18</ResultName>
+    <RunStartTime>2023-03-27 16:03:30</RunStartTime>
+    <Timezone>+03:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2022</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2022</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
